@@ -1,5 +1,6 @@
 body{
 		text-align:center;
+		background-color:#e0ece4;	
 		color: #40514E;
 }
 
@@ -8,12 +9,13 @@ h1{
 	font-family: 'Fondamento', cursive;
 	margin: 50px auto 10px auto;
 }
-p{
+p,th{
 	color:#515070;
-	font-family: 'Merriweather', serif;
-	
+	font-family: 'Merriweather', serif;	
 }
 hr{
+	padding-top: 10px;
+	padding-bottom: 20px;
 	border-color: grey;
 	border-style : dotted none none;
 	border-width: 5px;
@@ -27,20 +29,22 @@ a{
 a:hover{
 	color:white;
 }
+table {
+  border-collapse: collapse;
+}
 .top-container{
 		margin: 0;
 		background-color:#e0ece4;
 		position:relative;
-		padding:100px;
-		
+		padding:100px;		
 }
 .mid-container{
-		width:50%;
 		text-align:left;
 		background-color:#e0ece4;
 		position:relative;
 		padding:25px;
 		margin: auto;
+		width: 50%;
 }
 .mid-container li{
 		color:#40514E;
@@ -48,14 +52,12 @@ a:hover{
 .bottom-container{
 		background-color:#66bfbf;
 		padding: 25px;
-		margin-top: 25px;
-		
+		margin-top: 25px;	
 }
 .Qualities-img{
 	width:35%;
 	float: left;
 	margin-right: 25px;
-	
 }
 .teach-img {
   border-radius: 50%;
@@ -69,9 +71,8 @@ a:hover{
 }
 .bottom-cloud{
 	position:absolute;
-	left: 300px;
+	left: 200px;
 	bottom: 50px;
-	
 }
 .btn {
   -webkit-border-radius: 10;
